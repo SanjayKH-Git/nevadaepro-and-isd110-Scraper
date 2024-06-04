@@ -16,6 +16,10 @@ playwright install
 ```python
 python Nevada_scrape/Nevada_playwright.py
 ```
+**Output File**: ***nevada_data.json***
+
+**Attachment File Downloads To:** ***Nevada_Files*** Folder
+
 </br>
 
 isd110 - https://isd110.org (Static Site)
@@ -28,5 +32,6 @@ pip install -r isd110/requirements.txt
 ```python
 python isd110/isd_script.py
 ```
+**Output File**: ***isd_output.csv***
 
 **If you have any issues while running the code please reach out me**
