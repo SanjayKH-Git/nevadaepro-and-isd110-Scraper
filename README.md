@@ -7,28 +7,26 @@ Scraping assignment https://nevadaepro.com/ and https://isd110.org/ website
 Nevadapro - https://nevadaepro.com/ (Dynamic Site)
 
 ```shell
-cd Nevada_scrape
-pip install -r requirements.txt
+pip install -r Nevada_scrape/requirements.txt
 playwright install
 ```
 
 #### Run Nevada_playwright.py script with 
 
 ```python
-python Nevada_playwright.py
+python Nevada_scrape/Nevada_playwright.py
 ```
 </br>
 
 isd110 - https://isd110.org (Static Site)
 ```shell
-cd isd110
-pip install -r requirements.txt
+pip install -r isd110/requirements.txt
 ```
 
 #### Run isd_script.py script with 
 
 ```python
-python isd_script.py
+python isd110/isd_script.py
 ```
 
 **If you have any issues while running the code please reach out me**
