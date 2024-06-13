@@ -15,6 +15,8 @@ playwright install
 
 ```python
 python Nevada_scrape/Nevada_playwright.py
+
+python Nevada_scrape/optimised_nevada.py
 ```
 **Output File**: ***nevada_data.json***
 
